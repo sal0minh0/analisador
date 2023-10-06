@@ -1,0 +1,22 @@
+int main() {
+    int num1 = 123;
+    float num2 = 45.67;
+    char letra = 'A';
+    if (num1 > 100) {
+        println("Número maior que 100");
+    }
+    return 0;
+}
+
+float calcularMedia(float a, float b) {
+    float resultado = (a + b) / 2.0;
+    return resultado;
+}
+
+
+// Este é um comentário de linha
+int multiplicar(int x, int y) {
+    /* Este é um comentário
+       de múltiplas linhas */
+    return x * y;
+}
